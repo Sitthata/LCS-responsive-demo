@@ -1,0 +1,36 @@
+.margin-y {
+  margin-block: 1rem;
+}
+
+.parent {
+  padding: 1.5rem;
+  font-size: 3rem;
+  background-color: #fff;
+}
+
+.child {
+  font-size: 1.5rem;
+}
+
+.flex {
+  outline: 5px solid rgb(192, 103, 103);
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-item {
+  flex: 1;
+  background: teal;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .parent {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
